@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height:auto;
+} 
+
+.container {        
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+header {
+    background-color: red;
+    color: white;   
+}
+
+#container-aside-main {    
+    height: max-content;    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside {    
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+li {
+    padding: 8px;
+}
+
+main {    
+    flex: 2;
+}
+
+article {
+    background-image: url(./img/musculacao.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#h2_aside, #h2_article, #h3_article {
+    color: red;
+}
+
+.section {
+    background-color: lightgrey;
+    margin: 0px 0px 10px 0px;
+    gap: 08px, auto;
+}
+
+.img {
+    max-width: 35%;
+    height: auto;
+}
+
+#h2_section {
+    color: blue;
+}
+
+figure {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    padding:20px; 
+    background: red;
+    color:white;
+    
+}
+
+#nav_footer {
+    color: white;
+}

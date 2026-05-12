@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+header {
+    color: blue;
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start; 
+    height: max-content ;  
+}
+
+
+div {    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+h2 {
+    color: blue;
+}
+p {       
+    text-align:justify;
+    margin: 40px 8px 10px 8px;
+    height: 100vh;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+
+

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+header, h2 {
+    color: blue;
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    display: flex;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
